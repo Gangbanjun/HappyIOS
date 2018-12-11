@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    ViewController * rootVC = [[ViewController alloc]init];
+    _window.rootViewController = rootVC;
+    [_window makeKeyAndVisible];
     return YES;
 }
 
