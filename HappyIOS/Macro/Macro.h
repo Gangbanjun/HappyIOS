@@ -7,9 +7,9 @@
 //
 /*********1*******打印日志****************/
 #ifdef DEBUG
-#define EZLog(...) NSLog(__VA_ARGS__)
+#define HPLog(...) NSLog(__VA_ARGS__)
 #else
-#define EZLog(...)
+#define HPLog(...)
 #endif
 /***************************************/
 
