@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45E6D5B621C14D5D00AAA9C1 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E6D5B521C14D5D00AAA9C1 /* TableViewCell.m */; };
+		45E6D5B921C14DBF00AAA9C1 /* HPButtonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E6D5B821C14DBF00AAA9C1 /* HPButtonUtils.m */; };
+		45E6D5BC21C14DDE00AAA9C1 /* HPLabelUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E6D5BB21C14DDE00AAA9C1 /* HPLabelUtils.m */; };
+		45E6D5BF21C14E2700AAA9C1 /* HPColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E6D5BE21C14E2700AAA9C1 /* HPColor.m */; };
 		45FE671321B571BE00832E6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FE671221B571BE00832E6E /* AppDelegate.m */; };
 		45FE671621B571BE00832E6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FE671521B571BE00832E6E /* ViewController.m */; };
 		45FE671B21B571BF00832E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45FE671A21B571BF00832E6E /* Assets.xcassets */; };
@@ -35,6 +39,14 @@
 
 /* Begin PBXFileReference section */
 		454DB0EC21C01BBA000626BC /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		45E6D5B421C14D5D00AAA9C1 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		45E6D5B521C14D5D00AAA9C1 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		45E6D5B721C14DBF00AAA9C1 /* HPButtonUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPButtonUtils.h; sourceTree = "<group>"; };
+		45E6D5B821C14DBF00AAA9C1 /* HPButtonUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPButtonUtils.m; sourceTree = "<group>"; };
+		45E6D5BA21C14DDE00AAA9C1 /* HPLabelUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPLabelUtils.h; sourceTree = "<group>"; };
+		45E6D5BB21C14DDE00AAA9C1 /* HPLabelUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPLabelUtils.m; sourceTree = "<group>"; };
+		45E6D5BD21C14E2700AAA9C1 /* HPColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPColor.h; sourceTree = "<group>"; };
+		45E6D5BE21C14E2700AAA9C1 /* HPColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPColor.m; sourceTree = "<group>"; };
 		45FE670E21B571BE00832E6E /* HappyIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FE671121B571BE00832E6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		45FE671221B571BE00832E6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,6 +123,8 @@
 		454DB0EE21C01C40000626BC /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				45E6D5B421C14D5D00AAA9C1 /* TableViewCell.h */,
+				45E6D5B521C14D5D00AAA9C1 /* TableViewCell.m */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -135,6 +149,8 @@
 		454DB0F121C01FFB000626BC /* Label */ = {
 			isa = PBXGroup;
 			children = (
+				45E6D5BA21C14DDE00AAA9C1 /* HPLabelUtils.h */,
+				45E6D5BB21C14DDE00AAA9C1 /* HPLabelUtils.m */,
 			);
 			path = Label;
 			sourceTree = "<group>";
@@ -142,6 +158,8 @@
 		454DB0F221C0201B000626BC /* Button */ = {
 			isa = PBXGroup;
 			children = (
+				45E6D5B721C14DBF00AAA9C1 /* HPButtonUtils.h */,
+				45E6D5B821C14DBF00AAA9C1 /* HPButtonUtils.m */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -157,6 +175,8 @@
 		454DB0F421C0206B000626BC /* Color */ = {
 			isa = PBXGroup;
 			children = (
+				45E6D5BD21C14E2700AAA9C1 /* HPColor.h */,
+				45E6D5BE21C14E2700AAA9C1 /* HPColor.m */,
 			);
 			path = Color;
 			sourceTree = "<group>";
@@ -273,6 +293,7 @@
 		45FE670621B571BE00832E6E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HP;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = YC;
 				TargetAttributes = {
@@ -340,9 +361,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E6D5BC21C14DDE00AAA9C1 /* HPLabelUtils.m in Sources */,
 				45FE671621B571BE00832E6E /* ViewController.m in Sources */,
+				45E6D5B621C14D5D00AAA9C1 /* TableViewCell.m in Sources */,
 				45FE672121B571BF00832E6E /* main.m in Sources */,
 				45FE671321B571BE00832E6E /* AppDelegate.m in Sources */,
+				45E6D5B921C14DBF00AAA9C1 /* HPButtonUtils.m in Sources */,
+				45E6D5BF21C14E2700AAA9C1 /* HPColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
