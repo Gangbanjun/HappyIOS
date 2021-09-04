@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HappyIOS_Example' do
+  pod 'HappyIOS', :path => '../'
+
+  target 'HappyIOS_Tests' do
+    inherit! :search_paths
+
+  end
+end

@@ -1,0 +1,6 @@
+framework module HappyIOS {
+  umbrella header "HappyIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
